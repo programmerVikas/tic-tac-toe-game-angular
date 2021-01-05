@@ -1,0 +1,30 @@
+<a class="home btn btn-lg" routerLink="/">
+    <i class="fa fa-home" style="font-size:25px;"></i> Home
+</a>
+
+<audio [autoplay]='tru'>
+    <source src="assets/tune/win.wav" type="audio/ogg">
+  </audio>
+
+<div class="main">
+    <div class="card row">
+
+
+        <input [style.backgroundColor]="bgColor1" class="col-4 text-light " type="text" name="inp1" value="{{val1}}" (click)="inp1()" [disabled]=dis1>
+        <input [style.backgroundColor]="bgColor2" class="col-4 text-light " type="text" name="inp2" value="{{val2}}" (click)="inp2()" [disabled]=dis2>
+        <input [style.backgroundColor]="bgColor3" class="col-4 text-light " type="text" name="inp3" value="{{val3}}" (click)="inp3()" [disabled]=dis3>
+
+        <input [style.backgroundColor]="bgColor4" class="col-4 text-light" type="text" name="inp4" value="{{val4}}" (click)="inp4()" [disabled]=dis4>
+        <input [style.backgroundColor]="bgColor5" class="col-4 text-light" type="text" name="inp5" value="{{val5}}" (click)="inp5()" [disabled]=dis5>
+        <input [style.backgroundColor]="bgColor6" class="col-4 text-light" type="text" name="inp6" value="{{val6}}" (click)="inp6()" [disabled]=dis6>
+
+        <input [style.backgroundColor]="bgColor7" class="col-4 text-light" type="text" name="inp7" value="{{val7}}" (click)="inp7()" [disabled]=dis7>
+        <input [style.backgroundColor]="bgColor8" class="col-4 text-light" type="text" name="inp8" value="{{val8}}" (click)="inp8()" [disabled]=dis8>
+        <input [style.backgroundColor]="bgColor9" class="col-4 text-light" type="text" name="inp9" value="{{val9}}" (click)="inp9()" [disabled]=dis9>
+
+    </div>
+
+</div>
+<a class="retry btn btn-lg" routerLink="/retry" (click)="reload()">
+    <i class="fa fa-refresh" style="font-size:25px;"></i> Retry
+</a>

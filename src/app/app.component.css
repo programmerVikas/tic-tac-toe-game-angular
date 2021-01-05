@@ -1,0 +1,7 @@
+.main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 10px;
+    background: linear-gradient(145deg, #b8d6a8, #9bb48d);
+}

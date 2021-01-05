@@ -1,0 +1,62 @@
+.card {
+    width: 30%;
+    height: 40vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    background: linear-gradient(145deg, #b8d6a8, #9bb48d);
+    box-shadow: 20px 20px 60px #92aa85, -20px -20px 60px #c6e6b5;
+    padding: 10px;
+}
+
+@media (max-width: 575.98px) {
+    .card {
+        width: 85%;
+        height: 45vh;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-left: 2%;
+        margin-top: 10%;
+        padding: 10px;
+    }
+}
+
+input {
+    border-radius: 10%;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 20px 20px 60px #92aa85, -20px -20px 60px #c6e6b5;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Frijole', cursive;
+}
+
+.mon {
+    background-color: yellow;
+}
+
+.retry {
+    position: relative;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: inset 20px 20px 60px #bebebe, inset -20px -20px 60px #ffffff;
+    font-family: 'Creepster', cursive;
+}
+
+.home {
+    position: relative;
+    top: 5%;
+    border-radius: 19px;
+    background: linear-gradient(145deg, #3eb6e8, #3499c3);
+    box-shadow: 5px 5px 10px #2e86ab, -5px -5px 10px #46ceff;
+}

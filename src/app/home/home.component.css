@@ -1,0 +1,25 @@
+.header {
+    border-radius: 50px;
+    background: linear-gradient(to right, #64000080, rgba(110, 0, 0, 0.4)), url("https://images.ctfassets.net/3prze68gbwl1/asset-17suaysk1qa1jp4/fe212fc1d9d90b12907f5b6b04fa9280/android-ios-tic-tac-toe.png");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 20px 20px 60px #92aa85, -20px -20px 60px #c6e6b5;
+    font-family: 'Major Mono Display', monospace;
+    color: white;
+}
+
+.header h1 {
+    text-shadow: 5px 10px 5px #64c76c;
+}
+
+a {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: linear-gradient(145deg, #3499c3, #3eb6e8);
+    box-shadow: 35px 35px 70px #277291, -35px -35px 70px #4de2ff;
+    font-size: 60px;
+    font-family: 'Sail', cursive;
+}
